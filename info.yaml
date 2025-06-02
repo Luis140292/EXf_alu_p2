@@ -1,1 +1,12 @@
+project:
+  name: "ALU 8-bit"
+  author: "LT"
+  description: "ALU de 8 bits con suma, AND, OR, XOR y NOT usando full adders"
+  language: "verilog"
+  files:
+    - full_adder.v
+    - adder_8bit.v
+    - alu_8bit.v
+    - tt_um_alu.v
+  top_module: "tt_um_alu"
 
