@@ -2,7 +2,7 @@ module tt_um_alu (
     input  [7:0] ui_in,     // A[3:0], B[3:0]
     output [7:0] uo_out,    // Resultado
     input  [7:0] uio_in,    // Selector [2:0]
-    output [7:0] uio_out,   // Flags (si los usas)
+    output [7:0] uio_out,   // Flags 
     output [7:0] uio_oe,    // Habilitación
     input clk,
     input rst_n
